@@ -1,19 +1,32 @@
 # YouTube Downloader
 
-A simple Python script to download YouTube videos using the `yt-dlp` library.
+[![Python](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/) 
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+A simple Python script to download YouTube videos using the [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) library.
+
+## Features
+
+- Download YouTube videos easily
+- Choose the download location
+- Lightweight and easy-to-use Python script
+- Works on Windows, macOS, and Linux
 
 ## Getting Started
 
-### 1. Install Dependencies and run
+Follow these steps to set up and run the script.
 
-Run the following command to install `yt-dlp` and to run the code:
+### 1. Install Python
+
+Make sure Python 3.6+ is installed:
+
+- **Windows:** [Download Python](https://www.python.org/downloads/windows/)  
+- **macOS:** [Download Python](https://www.python.org/downloads/macos/)  
+- **Linux:** Use your package manager, e.g., `sudo apt install python3`
+
+### 2. Install Dependencies
+
+Install the `yt-dlp` library using pip:
 
 ```bash
 pip install yt-dlp
-
-then run "python downloader.py"
-
-Enter your video url and press enter
-
-Choose where do you want to save the video
-
