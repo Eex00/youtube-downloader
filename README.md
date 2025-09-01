@@ -30,3 +30,9 @@ Install the `yt-dlp` library using pip:
 
 ```bash
 pip install yt-dlp
+```
+
+### 3. Run the Script
+```bash
+python downloader.py
+```
